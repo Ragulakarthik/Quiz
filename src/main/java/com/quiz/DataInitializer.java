@@ -1,14 +1,11 @@
 package com.quiz;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
 import com.quiz.entity.AppUser;
 import com.quiz.entity.Question;
 import com.quiz.repository.QuestionRepository;
 import com.quiz.repository.UserRepository;
-
 import java.util.Arrays;
 
 @Component
@@ -32,6 +29,5 @@ public class DataInitializer implements CommandLineRunner {
     	questionRepository.save(new Question(null, "What is the hardest natural substance on Earth?", "Diamond", Arrays.asList("Diamond", "Gold", "Iron", "Platinum")));
     	questionRepository.save(new Question(null, "Which country is known as the Land of the Rising Sun?", "Japan", Arrays.asList("Japan", "China", "South Korea", "Thailand")));
     	questionRepository.save(new Question(null, "What is the main ingredient in guacamole?", "Avocado", Arrays.asList("Avocado", "Tomato", "Onion", "Garlic")));
-
     }
 }

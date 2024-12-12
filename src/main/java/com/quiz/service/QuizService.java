@@ -1,21 +1,15 @@
 package com.quiz.service;
-
 import java.util.NoSuchElementException;
 import java.util.Random;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.quiz.entity.Question;
 import com.quiz.entity.QuizSession;
 import com.quiz.repository.QuestionRepository;
 import com.quiz.repository.QuizSessionRepository;
-import com.quiz.repository.UserRepository;
 
 @Service
 public class QuizService {
-    @Autowired
-    private UserRepository userRepository;
     @Autowired
     private QuestionRepository questionRepository;
     @Autowired
@@ -43,8 +37,6 @@ public class QuizService {
         } else {
             quizSession.setIncorrectAnswers(quizSession.getIncorrectAnswers() + 1);
         }
-
-
         return quizSessionRepository.save(quizSession);
     }
 

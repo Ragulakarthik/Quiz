@@ -2,6 +2,12 @@
 
 This is a Spring Boot quiz application that allows users to start a quiz session, get random multiple choice questions, submit answers, and retrieve quiz results. 
 The application uses an H2 in-memory database for simplicity.
+![image](https://github.com/user-attachments/assets/297bcafc-7275-41d3-92a9-5b4926f0fa68)
+![image](https://github.com/user-attachments/assets/bd018569-3cd5-4a25-a84d-4d0938c55a52)
+![image](https://github.com/user-attachments/assets/b108c607-ce95-4923-bb34-e007886a9bf3)
+![image](https://github.com/user-attachments/assets/71214eae-bdd7-4868-af8a-5f4e6bf30e11)
+![image](https://github.com/user-attachments/assets/05e925d4-36dc-4d12-9d43-c3b1caa4d889)
+![image](https://github.com/user-attachments/assets/5e4fd414-b349-4a18-a66b-4f8e4cef491a)
 
 ## Technologies Used 💡
 

@@ -30,8 +30,10 @@ The application uses an H2 in-memory database for simplicity.
 To clone the repository, use the following command:
 
 git clone https://github.com/Ragulakarthik/Quiz.git
-cd Quiz
 
+After cloning open the project, open the project in any IDE like Spring Tool Suite (STS), Itellij or Ecilpse and Run As Spring Boot App.
+
+After that open PostMan and give these end points that are mentioned below.
 
 ## API Endpoints
 ## Start a New Quiz Session
